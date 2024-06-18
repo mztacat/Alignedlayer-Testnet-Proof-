@@ -50,6 +50,15 @@ aligned submit \
 --conn wss://batcher.alignedlayer.com
 ```
 
+use this code to get the log you will screenshot for your X post
+```
+aligned verify-proof-onchain \
+--aligned-verification-data ~/aligned_verification_data/*.json \
+--rpc https://ethereum-holesky-rpc.publicnode.com \
+--chain holesky
+```
+
+
 Use the explorer link in CMD to check if verified and you'll also see below image. 
 ![image](https://github.com/mztacat/Alignedlayer-Testnet-Proof-/assets/31314340/e20ad05a-eeaf-4067-8eef-612d4ae4948a)
 
